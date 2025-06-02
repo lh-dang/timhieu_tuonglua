@@ -1,4 +1,4 @@
-# TÌM HIỂU CẤU HÌNH CƠ BẢN TƯỜNG LỬA
+# TÌM HIỂU - CẤU HÌNH CƠ BẢN TƯỜNG LỬA
 ![image](https://github.com/user-attachments/assets/2a114cab-4b04-499f-b1cf-747b9427b2df)
 ---
 ## 1. Cấu hình ip cho router
