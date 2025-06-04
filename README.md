@@ -80,7 +80,7 @@ ip 172.16.3.2 255.255.255.0 172.16.3.1
 ```
 ## show ip route
 ```
-show ip route 172.16.brief
+show ip route brief
 ```
 
 # TÀI LIỆU THAM KHẢO
