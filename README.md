@@ -82,7 +82,10 @@ ip 172.16.3.2 255.255.255.0 172.16.3.1
 ```
 show ip int brief
 ```
-
+## show ip pc
+```
+show ip
+```
 # TÀI LIỆU THAM KHẢO
 ---
 - [link route img,hdh...](https://github.com/hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG)
