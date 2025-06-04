@@ -59,8 +59,30 @@ ip route 172.16.3.0 255.255.255.0 10.1.1.2
 ### Router R2
 ```
 ip route 192.168.2.0 255.255.255.0 10.1.1.1
-ip route 172.16.brief
+ip route 172.16.3.0 255.255.255.0 10.10.2.1
 ```
+### Router R3
+```
+ip route 192.168.2.0 255.255.255.0 10.10.2.2
+```
+## Cấu hình ip cho pc (kết nối đến gateway)
+### PC1
+```
+ip 192.168.2.2 255.255.255.0 192.168.2.1
+```
+### PC2
+```
+ip 192.168.2.3 255.255.255.0 192.168.2.1
+```
+### PC3
+```
+ip 172.16.3.2 255.255.255.0 172.16.3.1
+```
+## show ip route
+```
+show ip route 172.16.brief
+```
+
 # TÀI LIỆU THAM KHẢO
 ---
 - [link route img,hdh...](https://github.com/hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG)
