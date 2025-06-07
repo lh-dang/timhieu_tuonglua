@@ -86,6 +86,12 @@ show ip int brief
 ```
 show ip
 ```
+## LƯU CẤU HÌNH
+
+```
+copy running-config startup-config
+```
+
 # TÀI LIỆU THAM KHẢO
 ---
 - [link route img,hdh...](https://github.com/hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG)
