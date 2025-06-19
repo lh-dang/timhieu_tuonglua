@@ -32,7 +32,7 @@ int s0/0
 ip address 10.2.2.1 255.255.255.252
 no shut
 int f0/0
-ip address 172.168.3.1 255.255.255.0
+ip address 172.16.3.1 255.255.255.0
 no shut
 exit
 ```
