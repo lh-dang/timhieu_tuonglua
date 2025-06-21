@@ -50,6 +50,21 @@ ip address 172.16.3.1 255.255.255.0
 no shut
 exit
 ```
+### ASAv992-32
+```
+ena
+conf ter
+int g0/0
+ip address 209.165.200.226 255.255.255.248
+no shut
+int g0/1
+ip address 192.168.2.1 255.255.255.0
+no shut
+int g0/2
+ip address 192.168.1.1 255.255.255.0
+no shut
+exit
+```
 # CAU HINH DINH TUYEN DONG OSPF
 ### R1
 ```
