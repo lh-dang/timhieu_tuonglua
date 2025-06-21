@@ -33,7 +33,7 @@ conf ter
 int s0/0
 ip address 10.1.1.2 255.255.255.252
 no shut
-int f0/1
+int f0/0
 ip address 209.165.200.225 255.255.255.248
 no shut
 exit
