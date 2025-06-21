@@ -52,18 +52,47 @@ exit
 ```
 ### ASAv992-32
 ```
-ena
-conf ter
-int g0/0
-ip address 209.165.200.226 255.255.255.248
-no shut
-int g0/1
-ip address 192.168.2.1 255.255.255.0
-no shut
-int g0/2
-ip address 192.168.1.1 255.255.255.0
-no shut
-exit
+enable
+configure terminal
+hostname ASA
+
+! Cấu hình các interface
+interface GigabitEthernet0/0
+ nameif outside
+ security-level 0
+ ip address 209.165.200.226 255.255.255.248
+ no shutdown
+
+interface GigabitEthernet0/1
+ nameif inside
+ security-level 100
+ ip address 192.168.1.1 255.255.255.0
+ no shutdown
+
+interface GigabitEthernet0/2
+ nameif dmz
+ security-level 50
+ ip address 192.168.2.1 255.255.255.0
+ no shutdown
+
+! Bật định tuyến
+route outside 0.0.0.0 0.0.0.0 209.165.200.225
+
+! NAT cho inside và DMZ ra outside
+object network obj_any
+ subnet 0.0.0.0 0.0.0.0
+ nat (inside,outside) dynamic interface
+ nat (dmz,outside) dynamic interface
+
+! Cho phép truy cập từ inside và dmz ra ngoài
+access-list outside_access_in extended permit ip any any
+access-group outside_access_in in interface outside
+
+! Cho phép ICMP (ping)
+policy-map global_policy
+ class inspection_default
+  inspect icmp
+
 ```
 # CAU HINH DINH TUYEN DONG OSPF
 ### R1
@@ -89,6 +118,10 @@ router ospf 1
 network 10.2.2.0 0.0.0.3 area 0
 network 172.16.3.0 0.0.0.255 area 0
 end
+```
+### ASAv992-32
+```
+
 ```
 ## KIEM TRA LAI OSPF
 ```
