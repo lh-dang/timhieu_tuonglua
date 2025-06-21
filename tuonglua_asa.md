@@ -72,7 +72,6 @@ conf t
 router ospf 1
 network 10.1.1.0 0.0.0.3 area 0
 network 10.2.2.0 0.0.0.3 area 0
-network 209.165.200.224 0.0.0.7 area 0
 end
 ```
 ### R2
@@ -81,7 +80,6 @@ conf t
 router ospf 1
 network 10.1.1.0 0.0.0.3 area 0
 network 209.165.200.224 0.0.0.7 area 0
-network 192.168.2.0 0.0.0.255 area 0
 end
 ```
 ### R3
