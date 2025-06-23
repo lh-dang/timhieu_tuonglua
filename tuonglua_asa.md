@@ -63,13 +63,13 @@ interface GigabitEthernet0/0
  ip address 209.165.200.226 255.255.255.248
  no shutdown
 
-interface GigabitEthernet0/1
+interface GigabitEthernet0/2
  nameif inside
  security-level 100
  ip address 192.168.1.1 255.255.255.0
  no shutdown
 
-interface GigabitEthernet0/2
+interface GigabitEthernet0/1
  nameif dmz
  security-level 50
  ip address 192.168.2.1 255.255.255.0
