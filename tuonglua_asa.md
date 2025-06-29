@@ -148,7 +148,8 @@ end
 ```
 conf t
 router ospf 1
-redistribute static subnets
+! redistribute static subnets
+default-information originate
 end
 ```
 ## KIEM TRA LAI OSPF
