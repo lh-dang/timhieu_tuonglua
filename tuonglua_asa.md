@@ -126,8 +126,8 @@ end
 ******************************************************
 Nâng cấp cloud để ping ra ngoài
 ![image](https://github.com/user-attachments/assets/66ab6196-b6d9-450e-8d91-6dc6e7d39276)
-sử dụng card vmnet8 mặc định nat
-cấu hình gateway của vmnet8 là:192.168.10.1
+- sử dụng card vmnet8 mặc định nat
+ - cấu hình gateway của vmnet8 là:192.168.10.1
 ```
 ena
 conf t
@@ -141,6 +141,7 @@ network 192.168.10.2 0.0.0.255 area 0
 end
 conf t
 ip route 0.0.0.0 0.0.0.0 192.168.10.1
+end
 ```
 ## KIEM TRA LAI OSPF
 ```
