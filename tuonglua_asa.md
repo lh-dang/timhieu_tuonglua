@@ -79,10 +79,21 @@ interface GigabitEthernet0/1
 route outside 0.0.0.0 0.0.0.0 209.165.200.225
 
 ! NAT cho inside và DMZ ra outside
-object network obj_any
- subnet 0.0.0.0 0.0.0.0
+! object network obj_any
+!  subnet 0.0.0.0 0.0.0.0
+!  nat (inside,outside) dynamic interface
+!  nat (dmz,outside) dynamic interface
+
+object network INSIDE-NET
+ subnet 192.168.1.0 255.255.255.0
  nat (inside,outside) dynamic interface
+
+object network DMZ-NET
+ subnet 192.168.2.0 255.255.255.0
  nat (dmz,outside) dynamic interface
+
+
+
 
 ! Cho phép truy cập từ inside và dmz ra ngoài
 access-list outside_access_in extended permit ip any any
