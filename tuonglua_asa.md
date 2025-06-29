@@ -152,6 +152,13 @@ router ospf 1
 default-information originate
 end
 ```
+### ✅ default-information originate
+
+- Lệnh này yêu cầu router quảng bá route mặc định (0.0.0.0/0) vào OSPF.
+
+- Điều này có nghĩa là: “Muốn ra ngoài Internet à? Cứ gửi cho tao!”
+
+
 ## KIEM TRA LAI OSPF
 ```
 show ip ospf neighbor
