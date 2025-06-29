@@ -123,6 +123,25 @@ end
 ```
 
 ```
+******************************************************
+Nâng cấp cloud để ping ra ngoài
+![image](https://github.com/user-attachments/assets/66ab6196-b6d9-450e-8d91-6dc6e7d39276)
+sử dụng card vmnet8 mặc định nat
+cấu hình gateway của vmnet8 là:192.168.10.1
+```
+ena
+conf t
+int fa0/0
+ip address 192.168.10.2 255.255.255.0
+no shut
+end
+conf t
+router ospf 1
+network 192.168.10.2 0.0.0.255 area 0
+end
+conf t
+ip route 0.0.0.0 0.0.0.0 192.168.10.1
+```
 ## KIEM TRA LAI OSPF
 ```
 show ip ospf neighbor
