@@ -1,6 +1,8 @@
 # 📛FIREWALL
 ## ĐỀ TÀI: configuring filtering services
 
+[CẤU HÌNH MẠNG CƠ BẢN CÓ CHỨA ASA](https://github.com/lh-dang/timhieu_tuonglua/blob/main/tuonglua_asa.md)
+
 # TÀI LIỆU THAM KHẢO
 ---
 - [LINK ALL PHẦN CỨNG ẢO CẦN CHO CẤU HÌNH](https://github.com/hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG)
