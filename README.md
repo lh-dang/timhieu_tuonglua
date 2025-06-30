@@ -16,6 +16,9 @@
 | **DNS inspection**    | Cho phép ASA kiểm tra DNS query để phát hiện domain bị cấm (như facebook.com) |
 
 ### PHẦN MỀM SỬ DỤNG
+- vm ware
+- gns3
+- các thiết bị ảo của cisco(ASA,router,switch...)
 # TÀI LIỆU THAM KHẢO
 ---
 - [LINK ALL PHẦN CỨNG ẢO CẦN CHO CẤU HÌNH](https://github.com/hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG)
