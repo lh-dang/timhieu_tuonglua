@@ -2,7 +2,20 @@
 ## ĐỀ TÀI: configuring filtering services
 
 [CẤU HÌNH MẠNG CƠ BẢN CÓ CHỨA ASA](https://github.com/lh-dang/timhieu_tuonglua/blob/main/tuonglua_asa.md)
+### MÔ TẢ: 
+- Cấu hình dịch vụ lọc.
+### 🎯 Mục tiêu:
+- Chúng ta muốn lọc (chặn hoặc cho phép) các dịch vụ như Facebook, VPN, HTTP/HTTPS, v.v. thông qua cấu hình trên ASA.
+### 🧠 Thành phần chính trong Filtering Services:
+| Thành phần            | Vai trò                                                                       |
+| --------------------- | ----------------------------------------------------------------------------- |
+| **Access-list (ACL)** | Chặn hoặc cho phép các kết nối dựa trên IP, giao thức, port                   |
+| **Class-map**         | Xác định loại traffic cần xử lý (ví dụ: HTTP, HTTPS, VPN...)                  |
+| **Policy-map**        | Định nghĩa cách xử lý traffic đó (inspect, drop,...)                          |
+| **Service-policy**    | Gắn policy vào interface của ASA                                              |
+| **DNS inspection**    | Cho phép ASA kiểm tra DNS query để phát hiện domain bị cấm (như facebook.com) |
 
+### PHẦN MỀM SỬ DỤNG
 # TÀI LIỆU THAM KHẢO
 ---
 - [LINK ALL PHẦN CỨNG ẢO CẦN CHO CẤU HÌNH](https://github.com/hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG)
