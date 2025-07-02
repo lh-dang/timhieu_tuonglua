@@ -46,7 +46,8 @@
 | 📈 **Hiệu suất và ổn định**             | So với tường lửa tích hợp sẵn trong router hoặc hệ điều hành (như Windows Firewall), ASA xử lý tốt hơn trong môi trường nhiều lưu lượng hoặc yêu cầu nghiêm ngặt.                |
 | 🧩 **Modular Policy Framework (MPF)**   | ASA có MPF giúp bạn cấu hình lọc nội dung, inspection protocol, chống tấn công layer 7.                                                                                          |
 | 🔧 **Mô phỏng – GNS3 hỗ trợ tốt ASAv**  | Bạn có thể dễ dàng mô phỏng ASA trên GNS3 + VMware để luyện tập thực tế như thiết bị thật.                                                                                       |
-
+- HỖ TRỢ KỸ THUẬT LÂU DÀI
+- BẢO MẬT TOÀN DIỆN
 # TÀI LIỆU THAM KHẢO
 - [LINK ALL PHẦN CỨNG ẢO CẦN CHO CẤU HÌNH](https://github.com/hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG)
 - [lệnh cisco cơ bản](https://quantrimang.com/cong-nghe/tong-hop-lenh-ccna-cisco-162612)
