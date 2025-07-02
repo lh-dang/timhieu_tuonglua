@@ -2,7 +2,7 @@
 ## ĐỀ TÀI: configuring filtering services
 ![image](https://github.com/user-attachments/assets/d81b749a-c36e-4424-bf19-d15a1c37b14d)
 
-[CẤU HÌNH MẠNG CƠ BẢN CÓ CHỨA ASA](https://github.com/lh-dang/timhieu_tuonglua/blob/main/tuonglua_asa.md)
+[CẤU HÌNH TOPOLOGY TRÊN](https://github.com/lh-dang/timhieu_tuonglua/blob/main/tuonglua_asa.md)
 ### MÔ TẢ: 
 - Cấu hình dịch vụ lọc.
 🧱 PHẦN 1: CẤU HÌNH CƠ BẢN CHO THIẾT BỊ (ROUTER, SWITCH, PC)
