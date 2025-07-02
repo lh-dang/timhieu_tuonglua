@@ -5,7 +5,6 @@
 [CẤU HÌNH TOPOLOGY TRÊN](https://github.com/lh-dang/timhieu_tuonglua/blob/main/tuonglua_asa.md)
 ### MÔ TẢ: 
 - Cấu hình dịch vụ lọc.
-🧱 PHẦN 1: CẤU HÌNH CƠ BẢN CHO THIẾT BỊ (ROUTER, SWITCH, PC)
 ### CHỨC NĂNG
 | Loại lọc                                 | Mô tả                                                                    |
 | ---------------------------------------- | ------------------------------------------------------------------------ |
