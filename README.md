@@ -49,6 +49,7 @@
 - HỖ TRỢ KỸ THUẬT LÂU DÀI
 - BẢO MẬT TOÀN DIỆN
 # TÀI LIỆU THAM KHẢO
+- [Tài liệu của Cisco (CONFIGURING FILTERING SERVICES)](extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.html?file=https%3A%2F%2Fwww.cisco.com%2Fc%2Fen%2Fus%2Ftd%2Fdocs%2Fsecurity%2Fasa%2Fasa91%2Fconfiguration%2Ffirewall%2Fasa_91_firewall_config%2Fprotect_filter.pdf)
 - [LINK ALL PHẦN CỨNG ẢO CẦN CHO CẤU HÌNH](https://github.com/hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG)
 - [lệnh cisco cơ bản](https://quantrimang.com/cong-nghe/tong-hop-lenh-ccna-cisco-162612)
 - [Cisco ISO](https://drive.google.com/drive/folders/1AUD4zwBhoVQW0SOOQr_mM-HNnfDVbdPl)
