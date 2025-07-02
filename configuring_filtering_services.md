@@ -1,4 +1,5 @@
 # 📛 CẤU HÌNH CONFIGURING FILTERING SERVICES
+## 🔍 1. HTTP (Web thông thường - Port 80)
 ## 🔒 2. HTTPS (Web bảo mật - Port 443)
 
 
