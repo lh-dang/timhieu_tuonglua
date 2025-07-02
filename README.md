@@ -2,8 +2,8 @@
 ## ĐỀ TÀI: CONFIGURING FILTERING SERVICES
 ![image](https://github.com/user-attachments/assets/d81b749a-c36e-4424-bf19-d15a1c37b14d)
 
-[CẤU HÌNH TOPOLOGY TRÊN](https://github.com/lh-dang/timhieu_tuonglua/blob/main/tuonglua_asa.md)
-[CONFIGURING FILTERING SERVICES]()
+- [CẤU HÌNH TOPOLOGY TRÊN](https://github.com/lh-dang/timhieu_tuonglua/blob/main/tuonglua_asa.md)
+- [CONFIGURING FILTERING SERVICES](https://github.com/lh-dang/timhieu_tuonglua/blob/main/configuring_filtering_services.md)
 ### MÔ TẢ: 
 - Cấu hình dịch vụ lọc.
 ### CHỨC NĂNG
