@@ -35,9 +35,36 @@
 - vm ware
 - gns3
 - các thiết bị ảo của cisco(ASA,router,switch...)
+
+### CÁC LOẠI DỊCH VỤ LỌC
+#### 🔍 1. HTTP (Web thông thường - Port 80)
+- Lọc nội dung web như:
+  - ActiveX (filter activex)
+  - Java Applet (filter java)
+  - URL cụ thể, long URLs (filter url)
+- Có thể lọc theo IP nguồn, đích, subnet, port.
+#### 🔒 2. HTTPS (Web bảo mật - Port 443)
+- Lọc URL HTTPS bằng cách kiểm tra phần domain (vì nội dung bị mã hóa).
+- ASA không xem được nội dung mã hóa, nhưng vẫn có thể chặn domain theo chính sách.
+#### 📁 3. FTP (Truyền tệp - Port 21)
+- Lọc truy cập đến server FTP dựa vào địa chỉ và tên tệp.
+- Có thể chặn tương tác FTP không rõ ràng (dùng interact-block).
+#### 🧱 4. ActiveX Filtering
+- Lọc đối tượng <OBJECT> hoặc <APPLET> trong trang HTML.
+- Chặn hoặc xóa khỏi mã HTML để trình duyệt không thực thi.
+#### ☕ 5. Java Applet Filtering
+- Chặn Java applet trong trang web — ngăn mã chạy trên máy client.
+- ASA sẽ chuyển mã applet thành comment để không chạy.
+#### 🖥️ 6. Lọc bằng máy chủ bên ngoài (Websense / SmartFilter)
+- Dịch vụ lọc cao cấp hơn:
+  - HTTP / HTTPS / FTP
+  - Lọc theo chuyên mục trang web (ví dụ: game, mạng xã hội, khiêu dâm…)
+  - Hỗ trợ cache, logging, thống kê.
+
 ### MỤC TIÊU THÊM
-- AAA
+- AAA :  quản lý theo user
 - Lưu log lại(ai truy cập, truy cập vào đâu...)
+- Hỗ trợ cache(tăng tốc)
 ### LÝ DO CHỌN ASA THAY VÌ ROUTER CÓ CHỨC NĂNG FIREWALL
 | Lý do                                   | Giải thích                                                                                                                                                                       |
 | --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
