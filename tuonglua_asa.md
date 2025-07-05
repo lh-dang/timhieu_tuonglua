@@ -169,7 +169,12 @@ end
 
 - Điều này có nghĩa là: “Muốn ra ngoài Internet à? Cứ gửi cho tao!”
 
+## ⚡ Kiểm tra NAT Service của VMware
+- Vào Services.msc trên Windows.
+- Tìm và khởi động lại dịch vụ:
 
+> VMware NAT Service
+> VMware DHCP Service
 ## KIEM TRA LAI OSPF
 ```
 show ip ospf neighbor
