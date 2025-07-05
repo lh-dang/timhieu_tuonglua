@@ -182,6 +182,10 @@ copy running-config startup-config
 ```
 ## XÓA CẤU HÌNH
 ```
+write erase
+```
+hoặc
+```
 erase startup-config
 ```
 ```
