@@ -180,3 +180,10 @@ show ip route ospf
 ```
 copy running-config startup-config
 ```
+## XÓA CẤU HÌNH
+```
+erase startup-config
+```
+```
+reload
+```
