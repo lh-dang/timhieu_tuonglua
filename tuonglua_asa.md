@@ -173,8 +173,8 @@ end
 - Vào Services.msc trên Windows.
 - Tìm và khởi động lại dịch vụ:
 
-> VMware NAT Service
-> VMware DHCP Service
+> - VMware NAT Service
+> - VMware DHCP Service
 ## KIEM TRA LAI OSPF
 ```
 show ip ospf neighbor
