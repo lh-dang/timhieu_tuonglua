@@ -105,6 +105,12 @@ policy-map global_policy
   inspect icmp
 
 ```
+chỉ cho phép vào dmz cổng 443 và 80
+```
+access-list inside_to_dmz extended permit tcp 192.168.1.0 255.255.255.0 192.168.2.0 255.255.255.0 eq 80
+access-list inside_to_dmz extended permit tcp 192.168.1.0 255.255.255.0 192.168.2.0 255.255.255.0 eq 443
+access-group inside_to_dmz in interface inside
+```
 # CAU HINH DINH TUYEN DONG OSPF
 ### R1
 ```
