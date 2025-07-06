@@ -6,6 +6,10 @@
 ```
 filter activex <port> <local_IP> <local_mask> <foreign_IP> <foreign_mask>
 ```
+-  Cấu hình Lọc Java Applet
+```
+filter java <port> <local_IP> <local_mask> <foreign_IP> <foreign_mask>
+```
 Giải thích tham số:
 > - port: Cổng HTTP (thường là 80 hoặc http).
 > - local_IP/local_mask: IP/mask của máy nội bộ (nguồn).
