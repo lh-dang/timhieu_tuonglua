@@ -52,5 +52,26 @@ ciscoasa# show perfmon
 
 ## 📁 3. FTP (Truyền tệp - Port 21)
 ## 🧱 4. ActiveX Filtering
+- Mục đích: Chặn các thẻ <OBJECT> hoặc <APPLET> có thể chứa mã độc.
+- Cảnh báo: Có thể chặn cả Java applets hoặc hình ảnh/multimedia nhúng trong <object>.
+Cấu hình mẫu:
+```
+ciscoasa(config)# filter activex 80 0 0 0 0
+```
 ## ☕ 5. Java Applet Filtering
 ## 🖥️ 6. Lọc bằng máy chủ bên ngoài (Websense / SmartFilter)
+- Hỗ trợ: Websense, SmartFilter (N2H2).
+- Cách hoạt động:
+- ASA gửi truy vấn song song đến máy chủ lọc và server gốc.
+
+- Nếu bị từ chối, ASA chặn phản hồi.
+- Tùy chọn cấu hình:
+- Caching URL
+- Lọc long URL (HTTP dài)
+- Lọc HTTPS (dựa trên hostname vì mã hóa)
+- Lọc FTP
+## 📊 7. Giám sát Filtering
+- URL đã cho phép/bị từ chối
+- Số lượng yêu cầu HTTPS/FTP
+- Gói bị chặn do vượt bộ đệm
+- Sử dụng cache
