@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6f8b9842-399d-46d8-9e4e-b5e55005134e)
+![image](https://github.com/user-attachments/assets/fc846c62-ea1e-4eb9-9186-8be2a210b553)
 
 ---
 | Thiết bị | Interface | IP                 | Ghi chú           |
@@ -144,16 +144,16 @@ end
 ena
 conf t
 int fa0/0
-ip address 192.168.136.252 255.255.255.0
+ip address 192.168.10.252 255.255.255.0
 no shut
 end
 ```
 ```
 conf t
 router ospf 1
-network 192.168.136.0 0.0.0.255 area 0
+network 192.168.10.0 0.0.0.255 area 0
 exit
-ip route 0.0.0.0 0.0.0.0 192.168.136.2
+ip route 0.0.0.0 0.0.0.0 192.168.10.2
 end
 ```
 - Cấu hình thêm ospf để có thể ping từ máy bên trong ra ngoài
