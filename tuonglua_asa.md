@@ -149,9 +149,8 @@ no shut
 end
 conf t
 router ospf 1
-network 192.168.242.252 0.0.0.255 area 0
-end
-conf t
+network 192.168.242.0 0.0.0.255 area 0
+exit
 ip route 0.0.0.0 0.0.0.0 192.168.242.2
 end
 ```
