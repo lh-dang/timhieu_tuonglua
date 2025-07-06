@@ -39,6 +39,10 @@ show running-config | include filter
 <!-- <object ...> -->
 <!-- <applet ...> -->
 ```
+### Theo doi hieu xuat:
+```
+ciscoasa# show perfmon
+```
 ## 🔒 2. HTTPS (Web bảo mật - Port 443)
 
 
