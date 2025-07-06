@@ -144,14 +144,14 @@ end
 ena
 conf t
 int fa0/0
-ip address 192.168.242.252 255.255.255.0
+ip address 192.168.136.252 255.255.255.0
 no shut
 end
 conf t
 router ospf 1
-network 192.168.242.0 0.0.0.255 area 0
+network 192.168.136.0 0.0.0.255 area 0
 exit
-ip route 0.0.0.0 0.0.0.0 192.168.242.2
+ip route 0.0.0.0 0.0.0.0 192.168.136.2
 end
 ```
 - Cấu hình thêm ospf để có thể ping từ máy bên trong ra ngoài
