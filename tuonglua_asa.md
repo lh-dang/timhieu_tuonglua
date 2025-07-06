@@ -147,6 +147,8 @@ int fa0/0
 ip address 192.168.136.252 255.255.255.0
 no shut
 end
+```
+```
 conf t
 router ospf 1
 network 192.168.136.0 0.0.0.255 area 0
