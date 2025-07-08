@@ -17,8 +17,8 @@
 | **Lọc gói Deep Packet Inspection (DPI)** | Phân tích sâu nội dung gói để phát hiện các mối đe dọa.                  |
 
 ### 🎯 Mục tiêu:
-- Chúng ta muốn lọc (chặn hoặc cho phép)
-- các dịch vụ như Facebook, VPN, HTTP/HTTPS, v.v. thông qua cấu hình trên ASA.
+- Lọc (chặn hoặc cho phép)
+- Các dịch vụ như Facebook, VPN, HTTP/HTTPS, v.v. thông qua cấu hình trên ASA, pfsense.
 - Chặn truy cập trang web độc hại / không mong muốn.
 - Chống rò rỉ dữ liệu.
 - Giới hạn quyền truy cập theo nhóm người dùng / thiết bị.
@@ -34,32 +34,28 @@
 ### PHẦN MỀM SỬ DỤNG
 - vm ware
 - gns3
-- các thiết bị ảo của cisco(ASA,router,switch...)
+- các thiết bị ảo của cisco(ASA,pfsense,router,switch...)
 
 ### CÁC LOẠI DỊCH VỤ LỌC
 #### 🔍 1. HTTP (Web thông thường - Port 80)
 - Lọc nội dung web như:
   - ActiveX (filter activex)
+    > - Lọc các thẻ được nhúng vào trang web
+    > - Lọc đối tượng `<OBJECT>` hoặc `<APPLET>` trong trang HTML.
   - Java Applet (filter java)
-  - URL cụ thể, long URLs (filter url)
-- Có thể lọc theo IP nguồn, đích, subnet, port.
+    > - Chặn Java applet trong trang web — ngăn mã chạy trên máy client.
+    > - ASA sẽ chuyển mã applet thành comment để không chạy.
+- URL cụ thể, long URLs (filter url)
+- Có thể lọc theo IP nguồn, đích, port.
+
 #### 🔒 2. HTTPS (Web bảo mật - Port 443)
 - Lọc URL HTTPS bằng cách kiểm tra phần domain (vì nội dung bị mã hóa).
 - ASA không xem được nội dung mã hóa, nhưng vẫn có thể chặn domain theo chính sách.
+
 #### 📁 3. FTP (Truyền tệp - Port 21)
-- Lọc truy cập đến server FTP dựa vào địa chỉ và tên tệp.
-- Có thể chặn tương tác FTP không rõ ràng (dùng interact-block).
-#### 🧱 4. ActiveX Filtering
-- Lọc đối tượng <OBJECT> hoặc <APPLET> trong trang HTML.
-- Chặn hoặc xóa khỏi mã HTML để trình duyệt không thực thi.
-#### ☕ 5. Java Applet Filtering
-- Chặn Java applet trong trang web — ngăn mã chạy trên máy client.
-- ASA sẽ chuyển mã applet thành comment để không chạy.
-#### 🖥️ 6. Lọc bằng máy chủ bên ngoài (Websense / SmartFilter)
-- Dịch vụ lọc cao cấp hơn:
-  - HTTP / HTTPS / FTP
-  - Lọc theo chuyên mục trang web (ví dụ: game, mạng xã hội, khiêu dâm…)
-  - Hỗ trợ cache, logging, thống kê.
+#### 📁 4. Lọc theo chuyên mục trang web (ví dụ: game, mạng xã hội, khiêu dâm…)
+#### 📁 5. Lọc Theo nhóm người dùng.
+#### 📁 6. Ghi logging, thống kê.
 
 ### MỤC TIÊU THÊM
 - AAA :  quản lý theo user
