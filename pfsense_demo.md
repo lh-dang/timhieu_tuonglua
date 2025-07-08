@@ -43,8 +43,62 @@
 ---
 ![image](https://github.com/user-attachments/assets/a383f988-5901-4527-b89e-a0a4fdf5b69a)
 
+### Kích hoạt pfBlockerNG (pfSense-pkg-pfBlockerNG-devel)
+- Vào Firewall > pfBlockerNG > Update
+- Nhấn Force Update để tải các thành phần cần thiết
+- Sau khi tải xong, sang tab General:
+> - Enable pfBlockerNG: ✅
+> - Keep Settings: ✅
+> - Click Save
+---
+![image](https://github.com/user-attachments/assets/ea3b674d-fee0-40cb-bffa-db234065a9cb)
+
+---
+- **DNSBL (DNS Blackhole) giúp chặn domain chứa từ khóa bất kỳ.**
+- Vào tab DNSBL
+- Bật:
+> - Enable DNSBL: ✅
+> - Enable TLD: ✅ (Tùy chọn mở rộng)
+> - DNSBL Listening Interface: chọn LAN
+> - DNSBL IP: chọn 10.10.10.1 (mặc định)
+> - Click Save DNSBL settings
+
+---
+![image](https://github.com/user-attachments/assets/b5919ec6-76a6-4382-be52-2665e6e0853e)
+
 ## 🔐 LỌC URLs
 ### LỌC THEO TÊN MIỀN
+- Vào tab DNSBL > DNSBL Groups
+- Nhấn + Add
+> - DNSBL Group Name: custom_block
+> - Description: Danh sách tự tạo
+> - Action: Unbound
+> - Click Save
+Sau khi tạo xong, bấm vào Custom Domain List để nhập trực tiếp:
+```
+facebook.com
+tiktok.com
+casino.com
+vpnbook.com
+freevpn.org
+xvideos.com
+```
+> - **Nhấn Save, sau đó quay lại tab Update > Run để áp dụng.**
+---
+![image](https://github.com/user-attachments/assets/464231b6-37c2-4de1-b11c-afcb308b798a)
+
+
+
+
+
+
+
+
+
+
+
+---
+---
 ![image](https://github.com/user-attachments/assets/2b3bed65-d482-4179-8953-e259ac1c8def)
 
 ---
@@ -61,3 +115,4 @@
 - **Sử dụng extension**
 - squid
 - squidGuard
+- pfSense-pkg-pfBlockerNG-devel
