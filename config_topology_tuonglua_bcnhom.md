@@ -21,10 +21,13 @@ interface f1/0
    ip address dhcp
    no shutdown
 
-ip route 0.0.0.0 0.0.0.0 192.168.11.2
-ip route 192.168.30.0 255.255.255.0 10.0.0.2
-ip route 192.168.60.0 255.255.255.0 10.0.0.2
 
+router ospf 1
+ network 192.168.50.0 0.0.0.255 area 0
+ network 192.168.60.0 0.0.0.255 area 0
+ network 192.168.11.0 0.0.0.255 area 0
+ network 10.0.0.0 0.0.0.3 area 0
+ip route 0.0.0.0 0.0.0.0 192.168.11.2
 ip access-list standard LAN
   permit 192.168.50.0 0.0.0.255
   permit 192.168.60.0 0.0.0.255
@@ -42,6 +45,7 @@ interface s0/0
 interface f1/0
   ip nat outside
 
+
 ```
 ## CẤU HÌNH ROUTER 2
 ```
@@ -56,7 +60,11 @@ interface f0/0
   ip address 192.168.30.1 255.255.255.0
   no shutdown
 
-ip route 0.0.0.0 0.0.0.0 10.0.0.1
+conf t
+router ospf 1
+ network 10.0.0.0 0.0.0.3 area 0
+ network 192.168.30.0 0.0.0.255 area 0
+
 ```
 ## CẤU HÌNH ASA
 ```
