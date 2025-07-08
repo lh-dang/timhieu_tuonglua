@@ -47,7 +47,7 @@
 #### 📁 4. Lọc theo chuyên mục trang web (ví dụ: game, mạng xã hội, khiêu dâm…)
 #### 📁 5. Lọc Theo nhóm người dùng.
 #### 📁 6. Ghi logging, thống kê.
-
+[DEMO PFSENSE](https://github.com/lh-dang/timhieu_tuonglua/blob/main/pfsense_demo.md)
 ### MỤC TIÊU THÊM
 - AAA :  quản lý theo user
 - Lưu log lại(ai truy cập, truy cập vào đâu...)
