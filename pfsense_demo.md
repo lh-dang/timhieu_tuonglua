@@ -106,6 +106,19 @@ VD: đã biết địa chỉ ip của ctu.edu.vn hay elearning.ctu.edu.vn và kh
 
 
 ### LỌC CÁC KÝ TỰ NGHI NGỜ CHỨA MÃ ĐỘC
+![image](https://github.com/user-attachments/assets/1dab7e8f-3587-4f9f-8c8d-d43ae9fc92ff)
+- **🔹 Gán rule để chặn**
+- Tab Common ACL
+- Trong Target Rules List:
+- block_keywords: chọn deny
+- Nhấn Save
+
+- **🔹 Apply cấu hình**
+- Tab General
+- Nhấn Apply
+- Có thể nhấn “Clear Log / Apply” ở trên cùng nếu cần
+#### TEST 
+- https://casino.com
 ## 🔐 LỌC THEO NHÓM NGƯỜI DÙNG
 ## 🔍 GHI LOG, THỐNG KÊ
 ## 🔐 LỌC THEO CỔNG
