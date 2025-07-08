@@ -25,12 +25,14 @@ interface f1/0
 router ospf 1
  network 192.168.50.0 0.0.0.255 area 0
  network 192.168.60.0 0.0.0.255 area 0
+network 192.168.80.0 0.0.0.255 area 0
  network 192.168.11.0 0.0.0.255 area 0
  network 10.0.0.0 0.0.0.3 area 0
 ip route 0.0.0.0 0.0.0.0 192.168.11.2
 ip access-list standard LAN
   permit 192.168.50.0 0.0.0.255
   permit 192.168.60.0 0.0.0.255
+  permit 192.168.80.0 0.0.0.255
   permit 10.0.0.0 0.0.0.3
   permit 192.168.30.0 0.0.0.255
 
