@@ -6,15 +6,6 @@
 - [CONFIGURING FILTERING SERVICES](https://github.com/lh-dang/timhieu_tuonglua/blob/main/configuring_filtering_services.md)
 ### MÔ TẢ: 
 - Cấu hình dịch vụ lọc.
-### CHỨC NĂNG
-| Loại lọc                                 | Mô tả                                                                    |
-| ---------------------------------------- | ------------------------------------------------------------------------ |
-| **Lọc theo địa chỉ IP**                  | Chặn hoặc cho phép các IP cụ thể (ví dụ: block IP 8.8.8.8).              |
-| **Lọc theo port / protocol**             | Chặn port 80, chỉ cho phép SSH (TCP/22), v.v.                            |
-| **Lọc theo nội dung (Layer 7)**          | Nhận diện và lọc nội dung HTTP, chặn từ khóa, chặn Facebook, YouTube,... |
-| **Lọc ứng dụng (Application Filtering)** | Chặn các ứng dụng như Skype, Torrent, VPN,…                              |
-| **Lọc URL (URL Filtering)**              | Chặn truy cập các website theo tên miền (facebook.com, tiktok.com, v.v). |
-| **Lọc gói Deep Packet Inspection (DPI)** | Phân tích sâu nội dung gói để phát hiện các mối đe dọa.                  |
 
 ### 🎯 Mục tiêu:
 - Lọc (chặn hoặc cho phép)
@@ -62,15 +53,13 @@
 - Lưu log lại(ai truy cập, truy cập vào đâu...)
 - Hỗ trợ cache(tăng tốc)
 ### LÝ DO CHỌN ASA THAY VÌ ROUTER CÓ CHỨC NĂNG FIREWALL
-| Lý do                                   | Giải thích                                                                                                                                                                       |
-| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🔒 **Thiết bị chuyên dụng cho bảo mật** | ASA là firewall **hardware-based** (hoặc ảo như ASAv), được Cisco thiết kế để xử lý **kiểm soát truy cập**, **VPN**, **NAT**, **IPS**, **Application Layer Filtering** hiệu quả. |
-| 🧠 **Học tập – luyện thi chứng chỉ**    | ASA là nội dung thường gặp trong các chứng chỉ như **CCNP Security**, **CCIE**, hoặc trong các mô hình tấn công/phòng thủ mạng.                                                  |
-| 📈 **Hiệu suất và ổn định**             | So với tường lửa tích hợp sẵn trong router hoặc hệ điều hành (như Windows Firewall), ASA xử lý tốt hơn trong môi trường nhiều lưu lượng hoặc yêu cầu nghiêm ngặt.                |
-| 🧩 **Modular Policy Framework (MPF)**   | ASA có MPF giúp bạn cấu hình lọc nội dung, inspection protocol, chống tấn công layer 7.                                                                                          |
-| 🔧 **Mô phỏng – GNS3 hỗ trợ tốt ASAv**  | Bạn có thể dễ dàng mô phỏng ASA trên GNS3 + VMware để luyện tập thực tế như thiết bị thật.                                                                                       |
-- HỖ TRỢ KỸ THUẬT LÂU DÀI
-- BẢO MẬT TOÀN DIỆN
+- 🔒 **Thiết bị chuyên dụng cho bảo mật** 
+- 🧠 **Học tập – luyện thi chứng chỉ**    
+- 📈 **Hiệu suất và ổn định**             
+- 🧩 **Modular Policy Framework (MPF)**   
+- 🔧 **Mô phỏng – GNS3 hỗ trợ tốt ASAv**  
+- **Hỗ trợ kỹ thuật lâu dài**                 
+- **Bảo mật toàn diện**
 # TÀI LIỆU THAM KHẢO
 - [Tài liệu của Cisco (CONFIGURING FILTERING SERVICES)](extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.html?file=https%3A%2F%2Fwww.cisco.com%2Fc%2Fen%2Fus%2Ftd%2Fdocs%2Fsecurity%2Fasa%2Fasa91%2Fconfiguration%2Ffirewall%2Fasa_91_firewall_config%2Fprotect_filter.pdf)
 - [LINK ALL PHẦN CỨNG ẢO CẦN CHO CẤU HÌNH](https://github.com/hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG)
