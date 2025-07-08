@@ -1,5 +1,55 @@
 ![image](https://github.com/user-attachments/assets/da71e39f-502c-484f-a0e6-66dd95da8201)
 ## CẤU HÌNH ROUTER 1
+C7200
+```
+conf t
+hostname R1
+
+interface f3/0 
+  ip address 192.168.50.1 255.255.255.0
+  no shutdown
+
+interface g1/0 
+  ip address 192.168.60.1 255.255.255.0
+  no shutdown
+
+interface s4/0 
+  ip address 10.0.0.1 255.255.255.252
+  clock rate 64000
+  no shutdown
+
+interface g2/0 
+   ip address dhcp
+   no shutdown
+
+
+router ospf 1
+ network 192.168.50.0 0.0.0.255 area 0
+ network 192.168.60.0 0.0.0.255 area 0
+network 192.168.80.0 0.0.0.255 area 0
+ network 192.168.11.0 0.0.0.255 area 0
+ network 10.0.0.0 0.0.0.3 area 0
+ip route 0.0.0.0 0.0.0.0 192.168.11.2
+ip access-list standard LAN
+  permit 192.168.50.0 0.0.0.255
+  permit 192.168.60.0 0.0.0.255
+  permit 192.168.80.0 0.0.0.255
+  permit 10.0.0.0 0.0.0.3
+  permit 192.168.30.0 0.0.0.255
+
+ip nat inside source list LAN interface f1/0 overload
+conf t
+interface f3/0 
+  ip nat inside
+interface g1/0 
+  ip nat inside
+interface s4/0 
+  ip nat inside
+interface g2/0 
+  ip nat outside
+
+
+```
 ```
 conf t
 hostname R1
