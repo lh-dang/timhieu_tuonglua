@@ -3,6 +3,7 @@
 > pfSense hoạt động như một tường lửa (firewall) kiểm soát và bảo vệ lưu lượng mạng ra vào.
 ## 🌐 Ưu Điểm:
 - Nhẹ
+- Có giao diện(GUI)
 - pfSense có thể thay thế router
   - NAT (Network Address Translation)
   - DHCP (Phân phối IP)
