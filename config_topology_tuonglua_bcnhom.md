@@ -83,8 +83,14 @@ interface g0/2
 
  route outside 0.0.0.0 0.0.0.0 192.168.50.1
 
- nat (inside,outside) dynamic interface
- nat (dmz,outside) dynamic interface
+object network obj-inside
+  subnet 192.168.10.0 255.255.255.0
+  nat (inside,outside) dynamic interface
+
+object network obj-dmz
+  subnet 192.168.20.0 255.255.255.0
+  nat (dmz,outside) dynamic interface
+
 
  access-list outside_access extended permit ip any any
  access-group outside_access in interface outside
