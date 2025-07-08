@@ -17,6 +17,13 @@
   - 🧩 Plugin
 ## 🔐 LỌC URLs
 ### LỌC THEO TÊN MIỀN
+![image](https://github.com/user-attachments/assets/2b3bed65-d482-4179-8953-e259ac1c8def)
+
+---
+
+![image](https://github.com/user-attachments/assets/e3200e06-87ba-4527-8f44-cdbfdc22a1ca)
+
+---
 ### LỌC ĐỊA CHỈ IP
 ### LỌC CÁC KÝ TỰ NGHI NGỜ CHỨA MÃ ĐỘC
 ## 🔐 LỌC THEO NHÓM NGƯỜI DÙNG
