@@ -73,33 +73,39 @@ hostname ASA-1
 
 interface g0/0
   nameif outside
-  security-level 0
   ip address 192.168.50.2 255.255.255.0
+  security-level 0
   no shutdown
 
 interface g0/1
   nameif inside
-  security-level 100
   ip address 192.168.10.1 255.255.255.0
+  security-level 100
   no shutdown
-
+object network INSIDE
+ subnet 192.168.10.0 255.255.255.0
+nat (inside,outside) dynamic interface
+access-list OUTSIDE_IN permit icmp any any
+access-group OUTSIDE_IN in interface outside
+ 
 interface g0/2
   nameif dmz
   security-level 50
   ip address 192.168.20.1 255.255.255.0
   no shutdown
-
- route outside 0.0.0.0 0.0.0.0 192.168.50.1
-
-object network obj-inside
-  subnet 192.168.10.0 255.255.255.0
-  nat (inside,outside) dynamic interface
-
-object network obj-dmz
+object network DMZ
   subnet 192.168.20.0 255.255.255.0
-  nat (dmz,outside) dynamic interface
+nat (dmz,outside) dynamic interface
+exit
+access-group OUTSIDE_IN in dmz outside
 
+route outside 0.0.0.0 0.0.0.0 192.168.50.1
+access-list outside_access extended permit ip any any
+access-group outside_access in interface outside
 
- access-list outside_access extended permit ip any any
- access-group outside_access in interface outside
+access-list OUTSIDE_IN extended permit tcp any any eq www
+access-list OUTSIDE_IN extended permit tcp any any eq 443
+access-list OUTSIDE_IN extended permit udp any any eq domain
+access-group OUTSIDE_IN in interface outside
+
 ```
