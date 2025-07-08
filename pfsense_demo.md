@@ -66,8 +66,7 @@
 ---
 ![image](https://github.com/user-attachments/assets/b5919ec6-76a6-4382-be52-2665e6e0853e)
 
-## 🔐 LỌC URLs
-### LỌC THEO TÊN MIỀN
+---
 - Vào tab DNSBL > DNSBL Groups
 - Nhấn + Add
 > - DNSBL Group Name: custom_block
@@ -84,21 +83,9 @@ freevpn.org
 xvideos.com
 ```
 > - **Nhấn Save, sau đó quay lại tab Update > Run để áp dụng.**
----
-![image](https://github.com/user-attachments/assets/464231b6-37c2-4de1-b11c-afcb308b798a)
+## 🔐 LỌC URLs
+### LỌC ĐỊA CHỈ IP
 
-
-
-
-
-
-
-
-
-
-
----
----
 ![image](https://github.com/user-attachments/assets/2b3bed65-d482-4179-8953-e259ac1c8def)
 
 ---
@@ -106,7 +93,18 @@ xvideos.com
 ![image](https://github.com/user-attachments/assets/e3200e06-87ba-4527-8f44-cdbfdc22a1ca)
 
 ---
-### LỌC ĐỊA CHỈ IP
+
+![image](https://github.com/user-attachments/assets/09b1fe45-4221-4498-a5d3-0256da0203af)
+
+---
+VD: đã biết địa chỉ ip của ctu.edu.vn hay elearning.ctu.edu.vn và không muốn người dùng truy cập đến đó 
+
+---
+### LỌC THEO TÊN MIỀN
+
+![image](https://github.com/user-attachments/assets/cbacc185-73e7-419d-bff4-2f2b6f6e9357)
+
+
 ### LỌC CÁC KÝ TỰ NGHI NGỜ CHỨA MÃ ĐỘC
 ## 🔐 LỌC THEO NHÓM NGƯỜI DÙNG
 ## 🔍 GHI LOG, THỐNG KÊ
