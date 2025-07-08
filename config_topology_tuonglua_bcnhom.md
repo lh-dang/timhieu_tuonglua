@@ -36,9 +36,9 @@ ip access-list standard LAN
   permit 192.168.80.0 0.0.0.255
   permit 10.0.0.0 0.0.0.3
   permit 192.168.30.0 0.0.0.255
-
-ip nat inside source list LAN interface f1/0 overload
+end
 conf t
+ip nat inside source list LAN interface f1/0 overload
 interface f3/0 
   ip nat inside
 interface g1/0 
