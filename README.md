@@ -5,48 +5,37 @@
 - [CẤU HÌNH TOPOLOGY TRÊN](https://github.com/lh-dang/timhieu_tuonglua/blob/main/config_topology_tuonglua_bcnhom.md)
 - [CONFIGURING FILTERING SERVICES](https://github.com/lh-dang/timhieu_tuonglua/blob/main/configuring_filtering_services.md)
 ### MÔ TẢ: 
-- Cấu hình dịch vụ lọc.
-
-### 🎯 Mục tiêu:
-- Lọc (chặn hoặc cho phép)
-- Các dịch vụ như Facebook, VPN, HTTP/HTTPS, v.v. thông qua cấu hình trên ASA, pfsense.
+- **Cấu hình dịch vụ lọc**
+- Lọc gói tin.
+- Chặn hoặc cho phép.
 - Chặn truy cập trang web độc hại / không mong muốn.
-- Chống rò rỉ dữ liệu.
 - Giới hạn quyền truy cập theo nhóm người dùng / thiết bị.
-### 🧠 Thành phần chính trong Filtering Services:
-| Thành phần            | Vai trò                                                                       |
-| --------------------- | ----------------------------------------------------------------------------- |
-| **Access-list (ACL)** | Chặn hoặc cho phép các kết nối dựa trên IP, giao thức, port                   |
-| **Class-map**         | Xác định loại traffic cần xử lý (ví dụ: HTTP, HTTPS, VPN...)                  |
-| **Policy-map**        | Định nghĩa cách xử lý traffic đó (inspect, drop,...)                          |
-| **Service-policy**    | Gắn policy vào interface của ASA                                              |
-| **DNS inspection**    | Cho phép ASA kiểm tra DNS query để phát hiện domain bị cấm (như facebook.com) |
-
 ### PHẦN MỀM SỬ DỤNG
 - vm ware
 - gns3
 - các thiết bị ảo của cisco(ASA,pfsense,router,switch...)
 
 ### CÁC LOẠI DỊCH VỤ LỌC
-#### 🔍 1. HTTP (Web thông thường - Port 80)
-- Lọc nội dung web như:
-  - ActiveX (filter activex)
-    > - Lọc các thẻ được nhúng vào trang web
-    > - Lọc đối tượng `<OBJECT>` hoặc `<APPLET>` trong trang HTML.
-  - Java Applet (filter java)
-    > - Chặn Java applet trong trang web — ngăn mã chạy trên máy client.
-    > - ASA sẽ chuyển mã applet thành comment để không chạy.
-- URL cụ thể, long URLs (filter url)
-- Có thể lọc theo IP nguồn, đích, port.
-
-#### 🔒 2. HTTPS (Web bảo mật - Port 443)
-- Lọc URL HTTPS bằng cách kiểm tra phần domain (vì nội dung bị mã hóa).
-- ASA không xem được nội dung mã hóa, nhưng vẫn có thể chặn domain theo chính sách.
-
-#### 📁 3. FTP (Truyền tệp - Port 21)
-#### 📁 4. Lọc theo chuyên mục trang web (ví dụ: game, mạng xã hội, khiêu dâm…)
-#### 📁 5. Lọc Theo nhóm người dùng.
-#### 📁 6. Ghi logging, thống kê.
+#### 1. Xác định phạm vi lọc
+- **Lọc gói tin (Packet Filtering): Kiểm tra từng gói tin (packet) dựa trên:**
+- Địa chỉ IP nguồn/đích
+- Port (cổng) (VD: Chỉ mở port 80 cho HTTP, 443 cho HTTPS).
+  - `ActiveX (filter activex)`
+  - `Java Applet (filter java)`
+- Giao thức mạng (TCP, UDP, ICMP, etc.).
+- **Lọc ứng dụng (Application Filtering)**
+- VD: game, mạng xã hội, khiêu dâm…
+#### 2. Thiết lập quy tắc (Rules)
+- **Quy tắc cho phép (Allow):**
+- VD: Cho vào vùng DMZ với cổng 443
+- **Quy tắc chặn (Deny/Block)**
+- VD: Chặn tất cả truy cập từ IP độc hại đã biết, Chặn port 21 (FTP) nếu không sử dụng.
+- **Lọc Theo nhóm người dùng**
+- **Quy tắc NAT (Network Address Translation):**
+- VD: Chuyển hướng port hoặc ẩn IP nội bộ.
+- **Lọc theo thời gian (Time-based Rules):**
+- **VPN Filtering:**
+#### 3. Ghi logging, thống kê.
 [DEMO PFSENSE](https://github.com/lh-dang/timhieu_tuonglua/blob/main/pfsense_demo.md)
 ### MỤC TIÊU THÊM
 - AAA :  quản lý theo user
