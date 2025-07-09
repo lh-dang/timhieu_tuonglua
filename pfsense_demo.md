@@ -120,7 +120,12 @@ VD: đã biết địa chỉ ip của ctu.edu.vn hay elearning.ctu.edu.vn và kh
 #### TEST 
 - https://casino.com
 ## 🔐 LỌC THEO NHÓM NGƯỜI DÙNG
+![image](https://github.com/user-attachments/assets/658a3336-8406-45d1-b93b-b51536496c20)
+
 ## 🔍 GHI LOG, THỐNG KÊ
+> - Status > System Logs
+![image](https://github.com/user-attachments/assets/2b3c972e-9b33-4ae4-a23e-aab91d5e99c3)
+
 ## 🔐 LỌC THEO CỔNG
 ![image](https://github.com/user-attachments/assets/a4788c33-bbd1-4126-b83b-7af5abc9fee7)
 
