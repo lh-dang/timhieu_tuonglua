@@ -122,6 +122,11 @@ VD: đã biết địa chỉ ip của ctu.edu.vn hay elearning.ctu.edu.vn và kh
 ## 🔐 LỌC THEO NHÓM NGƯỜI DÙNG
 ## 🔍 GHI LOG, THỐNG KÊ
 ## 🔐 LỌC THEO CỔNG
+![image](https://github.com/user-attachments/assets/a4788c33-bbd1-4126-b83b-7af5abc9fee7)
+
+---
+![image](https://github.com/user-attachments/assets/ed379600-6fc4-4bbd-9b4f-75d149368611)
+
 # NOTEs
 - **Sử dụng extension**
 - squid
