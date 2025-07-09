@@ -127,3 +127,6 @@ VD: đã biết địa chỉ ip của ctu.edu.vn hay elearning.ctu.edu.vn và kh
 - squid
 - squidGuard
 - pfSense-pkg-pfBlockerNG-devel
+- **Lỗi**
+- Tắt VPN
+- Gatewat phải là nhánh LAN của pfsense
