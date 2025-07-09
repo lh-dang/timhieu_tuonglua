@@ -3,7 +3,6 @@
 ![image](https://github.com/user-attachments/assets/079c3a34-434a-4672-920c-a2ee832fc612)
 
 - [CẤU HÌNH TOPOLOGY TRÊN](https://github.com/lh-dang/timhieu_tuonglua/blob/main/config_topology_tuonglua_bcnhom.md)
-- [CONFIGURING FILTERING SERVICES](https://github.com/lh-dang/timhieu_tuonglua/blob/main/configuring_filtering_services.md)
 ### MÔ TẢ: 
 - **Cấu hình dịch vụ lọc**
 - Lọc gói tin.
