@@ -73,6 +73,12 @@ https://www.casino.com/vn/xxx.html
 - ghi log ten mien: 
 > - Status > System Logs
 
+# NGOÀI RA:
+## LỌC NỘI DUNG TRONG HTTP:
+### LỌC ACTIVE X
+### LỌC JAVA
+### LỌC NỘI DUNG
+## CẤU HÌNH AAA NẾU CÓ THỜI GIAN:
 
 # NOTEs
 - **Sử dụng extension**
