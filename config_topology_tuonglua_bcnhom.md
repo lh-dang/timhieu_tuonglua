@@ -74,6 +74,10 @@ router ospf 1
  network 192.168.30.0 0.0.0.255 area 0
 
 ```
+```
+conf t
+ip route 192.168.80.0 255.255.255.252 10.0.0.1
+```
 ## CẤU HÌNH ASA
 ```
 conf t
