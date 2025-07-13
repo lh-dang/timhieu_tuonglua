@@ -20,7 +20,7 @@
 > - Mặc định pfsense sẽ chặn truy cập từ ngoài vào trong lớp mạng
 > - Mở cổng từ ngoài vào trong nếu muốn
 
-- **Chặn truy cập web qua cổng 80(http)**
+- **Chặn truy cập web từ trong ra ngoài qua cổng 80(http)**
 ![image](https://github.com/user-attachments/assets/a4788c33-bbd1-4126-b83b-7af5abc9fee7)
 
 ---
