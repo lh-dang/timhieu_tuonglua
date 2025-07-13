@@ -18,7 +18,7 @@
 ## Cấu Hình
 ### Mở hoặc Chặn Cổng:
 > - Mặc định pfsense sẽ chặn truy cập từ ngoài vào trong lớp mạng
-> - Mở cổng http từ ngoài vào trong nếu muốn
+> - Mở cổng từ ngoài vào trong nếu muốn
 
 ## 🔐 LỌC URLs
 ### LỌC ĐỊA CHỈ IP
