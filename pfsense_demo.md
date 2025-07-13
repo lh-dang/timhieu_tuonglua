@@ -19,6 +19,65 @@
 ### Mở hoặc Chặn Cổng:
 > - Mặc định pfsense sẽ chặn truy cập từ ngoài vào trong lớp mạng
 > - Mở cổng http từ ngoài vào trong nếu muốn
+
+## 🔐 LỌC URLs
+### LỌC ĐỊA CHỈ IP
+
+![image](https://github.com/user-attachments/assets/2b3bed65-d482-4179-8953-e259ac1c8def)
+
+---
+
+![image](https://github.com/user-attachments/assets/e3200e06-87ba-4527-8f44-cdbfdc22a1ca)
+
+---
+
+![image](https://github.com/user-attachments/assets/09b1fe45-4221-4498-a5d3-0256da0203af)
+
+---
+VD: đã biết địa chỉ ip của ctu.edu.vn hay elearning.ctu.edu.vn và không muốn người dùng truy cập đến đó 
+
+---
+### LỌC THEO TÊN MIỀN
+
+![image](https://github.com/user-attachments/assets/cbacc185-73e7-419d-bff4-2f2b6f6e9357)
+
+
+### LỌC CÁC KÝ TỰ NGHI NGỜ CHỨA MÃ ĐỘC
+![image](https://github.com/user-attachments/assets/1dab7e8f-3587-4f9f-8c8d-d43ae9fc92ff)
+- **🔹 Gán rule để chặn**
+- Tab Common ACL
+- Trong Target Rules List:
+- block_keywords: chọn deny
+- Nhấn Save
+
+- **🔹 Apply cấu hình**
+- Tab General
+- Nhấn Apply
+- Có thể nhấn “Clear Log / Apply” ở trên cùng nếu cần
+#### TEST 
+- https://casino.com
+## 🔐 LỌC THEO NHÓM NGƯỜI DÙNG
+![image](https://github.com/user-attachments/assets/658a3336-8406-45d1-b93b-b51536496c20)
+
+## 🔍 GHI LOG, THỐNG KÊ
+> - Status > System Logs
+![image](https://github.com/user-attachments/assets/2b3c972e-9b33-4ae4-a23e-aab91d5e99c3)
+
+## 🔐 LỌC THEO CỔNG
+![image](https://github.com/user-attachments/assets/a4788c33-bbd1-4126-b83b-7af5abc9fee7)
+
+---
+![image](https://github.com/user-attachments/assets/ed379600-6fc4-4bbd-9b4f-75d149368611)
+
+# NOTEs
+- **Sử dụng extension**
+- squid
+- squidGuard
+- pfSense-pkg-pfBlockerNG-devel
+- **Lỗi**
+- Tắt VPN
+- Gatewat phải là nhánh LAN của pfsense
+# Others
 ### Kích hoạt Squid Proxy
 - Vào Services > Squid Proxy Server.
 - Tab General:
@@ -86,60 +145,3 @@ freevpn.org
 xvideos.com
 ```
 > - **Nhấn Save, sau đó quay lại tab Update > Run để áp dụng.**
-## 🔐 LỌC URLs
-### LỌC ĐỊA CHỈ IP
-
-![image](https://github.com/user-attachments/assets/2b3bed65-d482-4179-8953-e259ac1c8def)
-
----
-
-![image](https://github.com/user-attachments/assets/e3200e06-87ba-4527-8f44-cdbfdc22a1ca)
-
----
-
-![image](https://github.com/user-attachments/assets/09b1fe45-4221-4498-a5d3-0256da0203af)
-
----
-VD: đã biết địa chỉ ip của ctu.edu.vn hay elearning.ctu.edu.vn và không muốn người dùng truy cập đến đó 
-
----
-### LỌC THEO TÊN MIỀN
-
-![image](https://github.com/user-attachments/assets/cbacc185-73e7-419d-bff4-2f2b6f6e9357)
-
-
-### LỌC CÁC KÝ TỰ NGHI NGỜ CHỨA MÃ ĐỘC
-![image](https://github.com/user-attachments/assets/1dab7e8f-3587-4f9f-8c8d-d43ae9fc92ff)
-- **🔹 Gán rule để chặn**
-- Tab Common ACL
-- Trong Target Rules List:
-- block_keywords: chọn deny
-- Nhấn Save
-
-- **🔹 Apply cấu hình**
-- Tab General
-- Nhấn Apply
-- Có thể nhấn “Clear Log / Apply” ở trên cùng nếu cần
-#### TEST 
-- https://casino.com
-## 🔐 LỌC THEO NHÓM NGƯỜI DÙNG
-![image](https://github.com/user-attachments/assets/658a3336-8406-45d1-b93b-b51536496c20)
-
-## 🔍 GHI LOG, THỐNG KÊ
-> - Status > System Logs
-![image](https://github.com/user-attachments/assets/2b3c972e-9b33-4ae4-a23e-aab91d5e99c3)
-
-## 🔐 LỌC THEO CỔNG
-![image](https://github.com/user-attachments/assets/a4788c33-bbd1-4126-b83b-7af5abc9fee7)
-
----
-![image](https://github.com/user-attachments/assets/ed379600-6fc4-4bbd-9b4f-75d149368611)
-
-# NOTEs
-- **Sử dụng extension**
-- squid
-- squidGuard
-- pfSense-pkg-pfBlockerNG-devel
-- **Lỗi**
-- Tắt VPN
-- Gatewat phải là nhánh LAN của pfsense
