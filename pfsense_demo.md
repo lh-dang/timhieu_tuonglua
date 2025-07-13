@@ -16,9 +16,15 @@
   - 📊 Giám sát mạng
   - 🧩 Plugin
 ## Cấu Hình
-### Mở hoặc Chặn Cổng:
+## 🔐 LỌC THEO CỔNG
 > - Mặc định pfsense sẽ chặn truy cập từ ngoài vào trong lớp mạng
 > - Mở cổng từ ngoài vào trong nếu muốn
+
+- **Chặn truy cập web qua cổng 80(http)**
+![image](https://github.com/user-attachments/assets/a4788c33-bbd1-4126-b83b-7af5abc9fee7)
+
+---
+![image](https://github.com/user-attachments/assets/ed379600-6fc4-4bbd-9b4f-75d149368611)
 
 ## 🔐 LỌC URLs
 ### LỌC ĐỊA CHỈ IP
@@ -63,11 +69,6 @@ VD: đã biết địa chỉ ip của ctu.edu.vn hay elearning.ctu.edu.vn và kh
 > - Status > System Logs
 ![image](https://github.com/user-attachments/assets/2b3c972e-9b33-4ae4-a23e-aab91d5e99c3)
 
-## 🔐 LỌC THEO CỔNG
-![image](https://github.com/user-attachments/assets/a4788c33-bbd1-4126-b83b-7af5abc9fee7)
-
----
-![image](https://github.com/user-attachments/assets/ed379600-6fc4-4bbd-9b4f-75d149368611)
 
 # NOTEs
 - **Sử dụng extension**
