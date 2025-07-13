@@ -15,7 +15,7 @@
   - 🚫 Lọc nội dung
   - 📊 Giám sát mạng
   - 🧩 Plugin
-## Cấu Hình
+# CẤU HÌNH:
 ## 🔐 LỌC THEO CỔNG
 > - Mặc định pfsense sẽ chặn truy cập từ ngoài vào trong lớp mạng
 > - Mở cổng từ ngoài vào trong nếu muốn
