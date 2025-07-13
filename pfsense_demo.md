@@ -27,7 +27,7 @@
 ![image](https://github.com/user-attachments/assets/ed379600-6fc4-4bbd-9b4f-75d149368611)
 
 ## 🔐 LỌC URLs
-### LỌC ĐỊA CHỈ IP
+### 🔐 LỌC ĐỊA CHỈ IP
 
 ![image](https://github.com/user-attachments/assets/2b3bed65-d482-4179-8953-e259ac1c8def)
 
@@ -43,7 +43,7 @@
 VD: đã biết địa chỉ ip của ctu.edu.vn hay elearning.ctu.edu.vn và không muốn người dùng truy cập đến đó 
 
 ---
-### LỌC THEO TÊN MIỀN
+### 🔐 LỌC THEO TÊN MIỀN
 
 ![image](https://github.com/user-attachments/assets/cbacc185-73e7-419d-bff4-2f2b6f6e9357)
 
