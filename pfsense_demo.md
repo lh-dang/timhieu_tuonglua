@@ -49,6 +49,8 @@ VD: đã biết địa chỉ ip của ctu.edu.vn hay elearning.ctu.edu.vn và kh
 
 
 ### LỌC TỔ HỢP CÁC KÝ TỰ TRÊN URL:
+<img width="1280" height="973" alt="image" src="https://github.com/user-attachments/assets/b166f211-6657-43d2-88dc-9dc4fe4adfa5" />
+- **ex: http://example.com/casino** 
 - **Không thể lọc url của https:// bởi vì toàn bộ nội dung trong https:// đã bị mã hóa**
 - **Ví Dụ:**
 ```
