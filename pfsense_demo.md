@@ -16,6 +16,7 @@
   - 📊 Giám sát mạng
   - 🧩 Plugin
 ## Cấu Hình
+> - Mặc định pfsense sẽ chặn truy cập từ ngoài vào trong lớp mạng
 ### Kích hoạt Squid Proxy
 - Vào Services > Squid Proxy Server.
 - Tab General:
