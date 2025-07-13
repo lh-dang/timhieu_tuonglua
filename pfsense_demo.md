@@ -70,6 +70,7 @@ https://www.casino.com/vn/xxx.html
 ![image](https://github.com/user-attachments/assets/658a3336-8406-45d1-b93b-b51536496c20)
 
 ## 🔍 GHI LOG, THỐNG KÊ
+- ghi log ten mien: 
 > - Status > System Logs
 
 
