@@ -60,8 +60,6 @@ VD: đã biết địa chỉ ip của ctu.edu.vn hay elearning.ctu.edu.vn và kh
 - Tab General
 - Nhấn Apply
 - Có thể nhấn “Clear Log / Apply” ở trên cùng nếu cần
-#### TEST 
-- https://casino.com
 ## 🔐 LỌC THEO NHÓM NGƯỜI DÙNG
 ![image](https://github.com/user-attachments/assets/658a3336-8406-45d1-b93b-b51536496c20)
 
