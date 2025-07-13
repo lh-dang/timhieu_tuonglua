@@ -33,46 +33,7 @@
 
 ---
 
-![image](https://github.com/user-attachments/assets/e3200e06-87ba-4527-8f44-cdbfdc22a1ca)
-
----
-
-![image](https://github.com/user-attachments/assets/09b1fe45-4221-4498-a5d3-0256da0203af)
-
----
-VD: đã biết địa chỉ ip của ctu.edu.vn hay elearning.ctu.edu.vn và không muốn người dùng truy cập đến đó 
-
----
-### 🔐 LỌC THEO TÊN MIỀN
-
-![image](https://github.com/user-attachments/assets/cbacc185-73e7-419d-bff4-2f2b6f6e9357)
-
-
-### 🔐 LỌC TỔ HỢP CÁC KÝ TỰ TRÊN URL:
-<img width="1280" height="973" alt="image" src="https://github.com/user-attachments/assets/b166f211-6657-43d2-88dc-9dc4fe4adfa5" />
-
----
-<img width="1161" height="434" alt="image" src="https://github.com/user-attachments/assets/897def8e-fa5e-488b-aa25-309e3e4e1bb6" />
-
-- **ex: http://example.com/casino** 
----
-
-- **Không thể lọc url của https:// bởi vì toàn bộ nội dung trong https:// đã bị mã hóa**
-- **Ví Dụ:**
-```
-https://www.casino.com/vn/xxx.html
-```
-- **Trình duyệt sẽ:**
-- Mã hóa toàn bộ phần /vn/xxx.html và nội dung request
-- Proxy (như Squid hoặc pfSense) chỉ thấy hostname www.casino.com, không thấy đường dẫn /vn/xxx.html
-- ➡️ Vì vậy, regex như .*/xxx.* sẽ không hoạt động
-## 🔐 LỌC THEO NHÓM NGƯỜI DÙNG
-![image](https://github.com/user-attachments/assets/658a3336-8406-45d1-b93b-b51536496c20)
-
-## 🔍 GHI LOG, THỐNG KÊ
-- ghi log ten mien: 
-> - Status > System Logs
-
+![image](https://github.com/user-attachments/assets/e3200e06-87ba-4527-8f44GIAN
 
 # NOTEs
 - **Sử dụng extension**
