@@ -48,18 +48,16 @@ VD: đã biết địa chỉ ip của ctu.edu.vn hay elearning.ctu.edu.vn và kh
 ![image](https://github.com/user-attachments/assets/cbacc185-73e7-419d-bff4-2f2b6f6e9357)
 
 
-### LỌC CÁC KÝ TỰ NGHI NGỜ CHỨA MÃ ĐỘC
-![image](https://github.com/user-attachments/assets/1dab7e8f-3587-4f9f-8c8d-d43ae9fc92ff)
-- **🔹 Gán rule để chặn**
-- Tab Common ACL
-- Trong Target Rules List:
-- block_keywords: chọn deny
-- Nhấn Save
-
-- **🔹 Apply cấu hình**
-- Tab General
-- Nhấn Apply
-- Có thể nhấn “Clear Log / Apply” ở trên cùng nếu cần
+### LỌC TỔ HỢP CÁC KÝ TỰ TRÊN URL:
+- **Không thể lọc url của https:// bởi vì toàn bộ nội dung trong https:// đã bị mã hóa**
+- **Ví Dụ:**
+```
+https://www.casino.com/vn/xxx.html
+```
+- **Trình duyệt sẽ:**
+- Mã hóa toàn bộ phần /vn/xxx.html và nội dung request
+- Proxy (như Squid hoặc pfSense) chỉ thấy hostname www.casino.com, không thấy đường dẫn /vn/xxx.html
+- ➡️ Vì vậy, regex như .*/xxx.* sẽ không hoạt động
 ## 🔐 LỌC THEO NHÓM NGƯỜI DÙNG
 ![image](https://github.com/user-attachments/assets/658a3336-8406-45d1-b93b-b51536496c20)
 
