@@ -41,14 +41,10 @@
 <img width="862" height="328" alt="image" src="https://github.com/user-attachments/assets/abf587f8-7689-45c9-bbec-00dcc13a8d8e" />
 
 ## 🔐 LỌC THEO CỔNG
-> - Mặc định pfsense sẽ chặn truy cập từ ngoài vào trong lớp mạng
-> - Mở cổng từ ngoài vào trong nếu muốn
 
-- **Chặn truy cập web từ trong ra ngoài qua cổng 80(http)**
-![image](https://github.com/user-attachments/assets/a4788c33-bbd1-4126-b83b-7af5abc9fee7)
+> - **Chặn truy cập web từ trong ra ngoài qua cổng 80(http)**
 
----
-![image](https://github.com/user-attachments/assets/ed379600-6fc4-4bbd-9b4f-75d149368611)
+<img width="818" height="340" alt="image" src="https://github.com/user-attachments/assets/14e26c04-c392-475b-af0a-f719ea5143c1" />
 
 ## 🔐 LỌC URLs
 ### 🔐 LỌC ĐỊA CHỈ IP
