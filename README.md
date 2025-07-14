@@ -69,11 +69,6 @@
 | 🌐 **Lọc nội dung web**     | Dùng Squid + squidGuard, mạnh mẽ, tùy chỉnh | Cần license + máy chủ Websense hoặc SFR      |
 | 💻 **Tài nguyên hệ thống**  | Nhẹ, chạy mượt trên QEMU hoặc VirtualBox    | ASAv nặng, yêu cầu nhiều RAM/CPU             |
 
-
-
-
-
-
 ---
 # TÀI LIỆU THAM KHẢO
 - [Tài liệu của Cisco (CONFIGURING FILTERING SERVICES)](extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.htmlfile=https%3A%2F%2Fwww.cisco.com%2Fc%2Fen%2Fus%2Ftd%2Fdocs%2Fsecurity%2Fasa%2Fasa91%2Fconfiguration%2Ffirewall%2Fasa_91_firewall_config%2Fprotect_filter.pdf)
