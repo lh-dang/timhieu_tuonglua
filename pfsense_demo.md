@@ -84,8 +84,14 @@ https://www.casino.com/vn/xxx.html
 ![image](https://github.com/user-attachments/assets/658a3336-8406-45d1-b93b-b51536496c20)
 
 ## 🔍 GHI LOG, THỐNG KÊ
-- ghi log ten mien: 
 > - Status > System Logs
+<img width="826" height="455" alt="image" src="https://github.com/user-attachments/assets/c679c3df-a0b7-4a11-b281-5c415029f315" />
+---
+
+<img width="803" height="437" alt="image" src="https://github.com/user-attachments/assets/1ee0c529-561d-4fdb-80f2-d962888efd09" />
+
+
+
 
 # NGOÀI RA:
 ## LỌC NỘI DUNG TRONG HTTP:
