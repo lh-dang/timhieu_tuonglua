@@ -47,19 +47,9 @@
 <img width="818" height="340" alt="image" src="https://github.com/user-attachments/assets/14e26c04-c392-475b-af0a-f719ea5143c1" />
 
 ## 🔐 LỌC URLs
-### 🔐 LỌC ĐỊA CHỈ IP
-#### Lọc địa chỉ IP nguồn
-#### Lọc địa chỉ IP đíchđích
+### 🔐 LỌC ĐỊA CHỈ IP NGUỒN ĐÍCH
 
-![image](https://github.com/user-attachments/assets/2b3bed65-d482-4179-8953-e259ac1c8def)
-
----
-
-![image](https://github.com/user-attachments/assets/e3200e06-87ba-4527-8f44-cdbfdc22a1ca)
-
----
-
-![image](https://github.com/user-attachments/assets/09b1fe45-4221-4498-a5d3-0256da0203af)
+<img width="812" height="388" alt="image" src="https://github.com/user-attachments/assets/96c7124b-d44e-4710-b249-412b28c2299a" />
 
 ---
 VD: đã biết địa chỉ ip của ctu.edu.vn hay elearning.ctu.edu.vn và không muốn người dùng truy cập đến đó 
