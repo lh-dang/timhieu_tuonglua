@@ -26,6 +26,20 @@
 
 > - Mặc định pfsense đã chặn truy cập từ ngoài vào inside
 
+---
+## NAT (port forward)
+- **⚔️ Mục tiêu cấu hình:**
+- Cho phép từ Internet truy cập:
+> - DNS → 192.168.20.2:53 (UDP)
+> - Web → 192.168.20.3:80 (TCP)
+> - Bảo vệ nội bộ (không cho truy cập sâu vào INSIDE)
+
+<img width="869" height="359" alt="image" src="https://github.com/user-attachments/assets/49cb0e2e-c4b0-4cd9-8c21-40838b8a5f48" />
+
+
+---
+<img width="862" height="328" alt="image" src="https://github.com/user-attachments/assets/abf587f8-7689-45c9-bbec-00dcc13a8d8e" />
+
 ## 🔐 LỌC THEO CỔNG
 > - Mặc định pfsense sẽ chặn truy cập từ ngoài vào trong lớp mạng
 > - Mở cổng từ ngoài vào trong nếu muốn
