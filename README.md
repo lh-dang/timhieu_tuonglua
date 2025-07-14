@@ -44,13 +44,46 @@
 - AAA :  quản lý theo user
 - Lưu log lại(ai truy cập, truy cập vào đâu...)
 - Hỗ trợ cache(tăng tốc)
-### LÝ DO CHỌN PFSENSE THAY VÌ ROUTER CÓ CHỨC NĂNG FIREWALL
+
+### ⚔️ Lý do không chọn Router
+- 🔥 Lọc cơ bản lọc theo IP/Port.
+- 🧨 Zone-Based Firewall: giới hạn tường lửa lớp 3/4
+- 📦 Khả năng lọc ứng dụng (không nhận diện URL, Java, ActiveX): ❌ Không hỗ trợ
+- 🌐 Lọc URL theo nội dung: ⚠️ Không có sẵn
+- 🧠 Chức năng IPS/IDS: ⚠️ Yếu (cần cài riêng hoặc ISR cao cấp)
+- 📶 Hiệu suất xử lý gói tin: 	Tốt nhưng không tối ưu cho security
+- 🔌 Mở rộng:	Không
+- 📚 Khó học –  cấu hình
+- 💡 Ghi log chi tiết, thống kê, báo cáo như firewall chuyên dụng
+  
+### LÝ DO CHỌN PFSENSE THAY VÌ ASA
+| Tiêu chí                    | pfSense (Nguồn mở)                          | Cisco ASA (Thiết bị chuyên dụng)             |
+| --------------------------- | ------------------------------------------- | -------------------------------------------- |
+| 💰 **Chi phí**              | **Miễn phí** hoàn toàn                      | Cần license, file image khó tìm/giới hạn     |
+| 🧠 **Dễ học, dễ dùng**      | Giao diện web GUI trực quan, đơn giản       | Chủ yếu dùng **CLI**, khó với người mới      |
+| 📦 **Tính năng mặc định**   | Firewall, NAT, VPN, Captive Portal, IDS/IPS | Firewall mạnh, NAT, VPN, lọc mức ứng dụng    |
+| 🔌 **Mở rộng**              | Cài thêm gói: Squid, Snort, pfBlockerNG...  | Khó mở rộng, giới hạn theo bản firmware      |
+| 🔧 **Tùy chỉnh & kiểm thử** | Rất linh hoạt, chỉnh sửa theo ý muốn        | Cứng nhắc, phụ thuộc vào chính sách Cisco    |
+| 🧪 **Thí nghiệm, lab**      | Lý tưởng cho lab linh hoạt, mô phỏng mạng   | Khó tích hợp nếu thiếu license hoặc ASAv lỗi |
+| 📚 **Tài liệu cộng đồng**   | Cộng đồng mạnh, nhiều hướng dẫn chi tiết    | Tài liệu chính quy từ Cisco, ít cộng đồng mở |
+| 🌐 **Lọc nội dung web**     | Dùng Squid + squidGuard, mạnh mẽ, tùy chỉnh | Cần license + máy chủ Websense hoặc SFR      |
+| 💻 **Tài nguyên hệ thống**  | Nhẹ, chạy mượt trên QEMU hoặc VirtualBox    | ASAv nặng, yêu cầu nhiều RAM/CPU             |
+
+
+
+
+
+
+---
 - 🔒 **Thiết bị chuyên dụng cho bảo mật** 
 - 📈 **Hiệu suất và ổn định**             
 - 🧩 **Modular Policy Framework (MPF)**   
 - 🔧 **Mô phỏng – GNS3 hỗ trợ tốt ASAv**  
-- **Nhẹ**                 
+- **Nhẹ, chạy mượt**                 
 - **Bảo mật toàn diện**
+- **Giao diện web GUI trực quan, đơn giản**
+- **Cộng đồng mạnh, nhiều hướng dẫn chi tiết**
+- 
 # TÀI LIỆU THAM KHẢO
 - [Tài liệu của Cisco (CONFIGURING FILTERING SERVICES)](extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.htmlfile=https%3A%2F%2Fwww.cisco.com%2Fc%2Fen%2Fus%2Ftd%2Fdocs%2Fsecurity%2Fasa%2Fasa91%2Fconfiguration%2Ffirewall%2Fasa_91_firewall_config%2Fprotect_filter.pdf)
 - [LINK ALL PHẦN CỨNG ẢO CẦN CHO CẤU HÌNH](https://github.com/hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG)
