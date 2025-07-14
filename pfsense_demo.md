@@ -21,9 +21,10 @@
 
 <img width="1155" height="605" alt="image" src="https://github.com/user-attachments/assets/e7f89a97-8098-4565-8b53-64ff23350dbf" />
 
-
+---
 <img width="1151" height="454" alt="image" src="https://github.com/user-attachments/assets/d8d84f9b-346a-44c5-bbd7-44fe30bb19b4" />
 
+> - Mặc định pfsense đã chặn truy cập từ ngoài vào inside
 
 ## 🔐 LỌC THEO CỔNG
 > - Mặc định pfsense sẽ chặn truy cập từ ngoài vào trong lớp mạng
