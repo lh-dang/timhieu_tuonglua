@@ -28,6 +28,8 @@
 
 ## 🔐 LỌC URLs
 ### 🔐 LỌC ĐỊA CHỈ IP
+#### Lọc địa chỉ IP nguồn
+#### Lọc địa chỉ IP đíchđích
 
 ![image](https://github.com/user-attachments/assets/2b3bed65-d482-4179-8953-e259ac1c8def)
 
