@@ -1,6 +1,7 @@
 # 📛FIREWALL
 ## ĐỀ TÀI: CONFIGURING FILTERING SERVICES
-![image](https://github.com/user-attachments/assets/079c3a34-434a-4672-920c-a2ee832fc612)
+<img width="804" height="601" alt="image" src="https://github.com/user-attachments/assets/320fc6ab-881c-479f-8648-e7b0a6db76cc" />
+
 
 - [CẤU HÌNH TOPOLOGY TRÊN](https://github.com/lh-dang/timhieu_tuonglua/blob/main/config_topology_tuonglua_bcnhom.md)
 ### MÔ TẢ: 
