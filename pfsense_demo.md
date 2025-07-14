@@ -16,6 +16,15 @@
   - 📊 Giám sát mạng
   - 🧩 Plugin
 # CẤU HÌNH:
+## NAT từ inside ra outside
+> - Che địa chỉ nội bộ:
+
+<img width="1153" height="509" alt="image" src="https://github.com/user-attachments/assets/d0be22b0-d641-44ca-a936-a9408debb54f" />
+
+
+<img width="1151" height="454" alt="image" src="https://github.com/user-attachments/assets/d8d84f9b-346a-44c5-bbd7-44fe30bb19b4" />
+
+
 ## 🔐 LỌC THEO CỔNG
 > - Mặc định pfsense sẽ chặn truy cập từ ngoài vào trong lớp mạng
 > - Mở cổng từ ngoài vào trong nếu muốn
