@@ -56,11 +56,12 @@ VD: đã biết địa chỉ ip của ctu.edu.vn hay elearning.ctu.edu.vn và kh
 
 ---
 ### 🔐 LỌC THEO TÊN MIỀN
-
-![image](https://github.com/user-attachments/assets/cbacc185-73e7-419d-bff4-2f2b6f6e9357)
+> - Chặn nhóm người dùng: không cho học sinh đọc báo.
+<img width="816" height="412" alt="image" src="https://github.com/user-attachments/assets/e36972ee-9e05-4587-bc35-14c743b3a6e7" />
 
 
 ### 🔐 LỌC TỔ HỢP CÁC KÝ TỰ TRÊN URL:
+
 <img width="1280" height="973" alt="image" src="https://github.com/user-attachments/assets/b166f211-6657-43d2-88dc-9dc4fe4adfa5" />
 
 ---
