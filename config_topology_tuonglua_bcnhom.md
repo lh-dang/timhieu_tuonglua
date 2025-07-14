@@ -1,4 +1,5 @@
-<img width="804" height="601" alt="image" src="https://github.com/user-attachments/assets/59e6af61-1c6c-487d-a3d3-483f0fbb6f5b" />
+<img width="793" height="610" alt="image" src="https://github.com/user-attachments/assets/3e2e9323-d359-4088-a6dd-e26373fc2794" />
+
 
 
 ## CẤU HÌNH ROUTER 1
