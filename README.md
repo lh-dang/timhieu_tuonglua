@@ -44,16 +44,15 @@
 - AAA :  quản lý theo user
 - Lưu log lại(ai truy cập, truy cập vào đâu...)
 - Hỗ trợ cache(tăng tốc)
-### LÝ DO CHỌN ASA THAY VÌ ROUTER CÓ CHỨC NĂNG FIREWALL
+### LÝ DO CHỌN PFSENSE THAY VÌ ROUTER CÓ CHỨC NĂNG FIREWALL
 - 🔒 **Thiết bị chuyên dụng cho bảo mật** 
-- 🧠 **Học tập – luyện thi chứng chỉ**    
 - 📈 **Hiệu suất và ổn định**             
 - 🧩 **Modular Policy Framework (MPF)**   
 - 🔧 **Mô phỏng – GNS3 hỗ trợ tốt ASAv**  
-- **Hỗ trợ kỹ thuật lâu dài**                 
+- **Nhẹ**                 
 - **Bảo mật toàn diện**
 # TÀI LIỆU THAM KHẢO
-- [Tài liệu của Cisco (CONFIGURING FILTERING SERVICES)](extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.html?file=https%3A%2F%2Fwww.cisco.com%2Fc%2Fen%2Fus%2Ftd%2Fdocs%2Fsecurity%2Fasa%2Fasa91%2Fconfiguration%2Ffirewall%2Fasa_91_firewall_config%2Fprotect_filter.pdf)
+- [Tài liệu của Cisco (CONFIGURING FILTERING SERVICES)](extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.htmlfile=https%3A%2F%2Fwww.cisco.com%2Fc%2Fen%2Fus%2Ftd%2Fdocs%2Fsecurity%2Fasa%2Fasa91%2Fconfiguration%2Ffirewall%2Fasa_91_firewall_config%2Fprotect_filter.pdf)
 - [LINK ALL PHẦN CỨNG ẢO CẦN CHO CẤU HÌNH](https://github.com/hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG)
 - [lệnh cisco cơ bản](https://quantrimang.com/cong-nghe/tong-hop-lenh-ccna-cisco-162612)
 - [Cisco ISO](https://drive.google.com/drive/folders/1AUD4zwBhoVQW0SOOQr_mM-HNnfDVbdPl)
