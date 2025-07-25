@@ -52,6 +52,8 @@ Chạy lệnh sau để kết nối VPN:
 sudo openvpn --config ~/vpn/myvpn.ovpn
 ```
 
+**Lưu ý** thêm `ata-ciphers AES-128-CBC` vào đầu file
+
 ❗ Nếu file cấu hình yêu cầu username/password, OpenVPN sẽ yêu cầu nhập lúc kết nối.
 
 ### 🧪 Kiểm tra sau khi kết nối thành công:
